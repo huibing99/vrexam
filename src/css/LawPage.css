@@ -1,0 +1,28 @@
+.show-search{
+    margin-left: 12rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    width: 65%;
+}
+.search-box{
+    width: 100%;
+    margin:auto;
+}
+
+.show-search-content{
+    width: 65%;
+    margin-left: 12rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 990px){
+    .show-search{
+        margin: 5rem auto;
+        width: 70%;
+    }
+    .show-search-content{
+        width: 70%;
+        margin: 5rem auto;
+    }
+  }

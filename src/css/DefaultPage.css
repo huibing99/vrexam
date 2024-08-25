@@ -1,0 +1,119 @@
+.logo{
+  width: 20px;
+  height: 20px;
+}
+
+.LoginModule{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  border: 1px solid rgba(184, 180, 180, 0.178);
+  border-radius: 10px;
+  margin:10rem auto;
+  box-shadow: 1px 1px 1px #c2bec73a;
+  width: 90%;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  padding: 7rem;
+  padding-bottom: 2rem;
+  border: 1px solid rgba(184, 180, 180, 0.363);
+  border-radius: 5px;
+  /* margin-top:12rem;
+  margin-bottom: 12rem;
+  margin-left: 38rem;
+  margin-right: 20rem; */
+  box-shadow: 1px 1px 1px rgba(194, 190, 199, 0.459);
+  width: 90%;
+  background-color: rgba(230, 230, 230, 0.384);
+}
+
+.TestModule{
+ width: 90%;
+
+}
+/* @media screen and (max-width: 990px){
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    padding-bottom: 2rem;
+    border: 1px solid rgba(184, 180, 180, 0.363);
+    border-radius: 5px;
+    margin:12rem auto;
+    box-shadow: 1px 1px 1px rgba(194, 190, 199, 0.459);
+    width: 90%;
+    background-color: rgba(230, 230, 230, 0.384);
+  }
+  .TestModule{
+    margin:auto;
+  }                           
+} */
+
+.effect1{
+  background: rgba(243, 243, 243, 0.473);
+  box-shadow: 0 1px 1px rgb(197, 195, 195);
+  margin:2rem auto;
+  padding: 2rem;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.effect2
+{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.effect3
+{
+  background: rgba(245, 245, 245, 0.171);
+  box-shadow: 0 1px 1px rgb(197, 195, 195);
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}
+
+.showAnswer{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+.checkAnswer{
+  float: right;
+}
+
+.ant-layout {
+  display: flex!important;
+  width: 100%!important;
+  min-height: 100%!important;
+}
+
+
+.question_title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question_content{
+  font-size: 15px;
+}
+
+.ant-menu-title-content {
+  transition:color .3s;
+  font-size: 20px;
+ }
+
+.ant-menu-dark.ant-menu-inline{
+  border-right: 0;
+  margin-top: 2rem;
+ }
+ 
+
